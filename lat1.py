@@ -27,6 +27,6 @@ PAGES = {
   "Page Three" : page_3
 }
 
-st.sidebar.image("hutaw.jpg", width=200)
+st.sidebar.image("htaw.jpg", width=200)
 page = st.sidebar.radio("Pages List :", list(PAGES.keys()))
 PAGES[page]()
