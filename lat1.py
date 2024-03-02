@@ -13,13 +13,13 @@ import streamlit as st
 
 def page_1():
   st.title("Page One")
-  st.write("Introduction")
+  st.write("This page is for Introduction")
 def page_2():
   st.title("Page Two")
-  st.write("Youtbe Video")
+  st.write("This page is for Youtbe Video")
 def page_3():
   st.title("Page Three")
-  st.write("Math Formula")
+  st.write("This page is for Math Formula")
   
 PAGES = {
   "Page One" : page_1,
