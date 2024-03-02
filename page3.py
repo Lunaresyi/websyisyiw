@@ -6,5 +6,4 @@ def page_3():
   
   with open('hihi.md', 'r') as file:
       isi_teks = file.read()
-      
-st.markdown(isi_teks)
+      st.markdown(isi_teks)
