@@ -7,5 +7,5 @@ def page_1():
   st.markdown('*<div style="text-align: center; color: #BEB6C6; ">I had all and then most of you, some and, now none of you.... oh take me back, to the night we met*', unsafe_allow_html=True)
   st.write("")
   with st.container():
-    st.image("moonsun.png", width=700)
+   st.image("miko.gif", width=720)
     
