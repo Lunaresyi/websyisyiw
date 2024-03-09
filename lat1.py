@@ -42,6 +42,9 @@ st.markdown(
       [data-testid="baseButton-header"] {
         display: none;
       }
+      
+      #MainMenu {visibility: hidden;}
+      footer {visibility: hidden;}
         
       </style>
       """,
