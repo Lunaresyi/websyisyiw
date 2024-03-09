@@ -4,6 +4,8 @@ from page2 import page_2
 from page3 import page_3
 from page4 import page_4
 from page5 import page_5
+from page6 import page_6
+from img1 import page_7
 
 #import pandas as pd
 #import matplotlib.pyplot as plt
@@ -22,7 +24,9 @@ PAGES = {
   "Page Two" : page_2,
   "Page Three" : page_3,
   "Page Four" : page_4,
-  "Page Five" : page_5
+  "Page Five" : page_5,
+  "Page Six" : page_6,
+  "Page Seven" : page_7
   }
 
 st.sidebar.image("fotor-20240303212047.png", width=150)
