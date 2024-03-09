@@ -32,3 +32,17 @@ PAGES = {
 st.sidebar.image("fotor-20240303212047.png", width=150)
 page = st.sidebar.radio("Pages List :", list(PAGES.keys()))
 PAGES[page]()
+
+st.markdown(
+  """
+      <style>
+      [data-testid="stActionButtonIcon"] {
+        display: none;
+      }
+      [data-testid="baseButton-header"] {
+        display: none;
+      }
+        
+      </style>
+      """,
+  unsafe_allow_html=True,)
